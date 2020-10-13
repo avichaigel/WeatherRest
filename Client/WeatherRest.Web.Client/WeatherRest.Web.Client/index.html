@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript HTML App</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <style>
+
+    </style>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div id="auth" class="auth">
+        <h2>Login:</h2>
+        <fieldset>
+            <label for="loginUserName">Username : </label>
+            <input type="text" id="loginUserName" name="loginUserName" value="" />
+        </fieldset>
+        <fieldset>
+            <label for="LoginPass">Password :</label>
+            <input type="password" id="LoginPass" name="LoginPass" value="" />
+        </fieldset>
+        <input type="button" value="Login" onclick="login()" />
+        <input type="checkbox" onclick="password_visibility('LoginPass')">Show Password
+        <p></p>
+        <h2>Register:</h2>
+        <fieldset>
+            <label for="RegUserName">Username : </label>
+            <input type="text" id="RegUserName" name="RegUserName" value="" />
+        </fieldset>
+        <fieldset>
+            <label for="RegPass">Password :</label>
+            <input type="password" id="RegPass" name="RegPass" value="" />
+        </fieldset>
+        <input type="button" value="Register" onclick="register()" />
+        <input type="checkbox" onclick="password_visibility('RegPass')">Show Password
+    </div>
+<div id="map"></div>
+<script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ4eCx0fPQLwyO81vCbBg7PsNRmOoTpsg&callback=initMap">
+</script>
+<div id="result">
+    <table id="tbl">
+        <thead>
+        <tr>
+            <th>Date</th>
+            <th>Minimal Temp (F)</th>
+            <th>Maximal Temp (F)</th>
+            <th>Description</th>
+        </tr>
+        </thead>
+    </table>
+</div>
+
+</body>
+</html>

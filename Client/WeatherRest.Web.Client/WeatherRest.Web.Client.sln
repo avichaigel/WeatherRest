@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherRest.Web.Client", "WeatherRest.Web.Client\WeatherRest.Web.Client.csproj", "{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeScriptHTMLApp1", "..\..\..\..\Users\avich\source\repos\WeatherForecast\TypeScriptHTMLApp1\TypeScriptHTMLApp1.csproj", "{C44FB7D6-8C6A-4113-9D96-752A81D7106D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unitesting", "Unitesting", "{E3E5BDBC-558F-4927-93DC-AA78936FE922}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WeatherRest.Web.Server", "..\WeatherRest.Web.Server\WeatherRest.Web.Server.pyproj", "{3C40B728-5D10-4FF6-B42B-07CD0401DBA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C44FB7D6-8C6A-4113-9D96-752A81D7106D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44FB7D6-8C6A-4113-9D96-752A81D7106D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44FB7D6-8C6A-4113-9D96-752A81D7106D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44FB7D6-8C6A-4113-9D96-752A81D7106D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C40B728-5D10-4FF6-B42B-07CD0401DBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C40B728-5D10-4FF6-B42B-07CD0401DBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C40B728-5D10-4FF6-B42B-07CD0401DBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C40B728-5D10-4FF6-B42B-07CD0401DBA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C44FB7D6-8C6A-4113-9D96-752A81D7106D} = {E3E5BDBC-558F-4927-93DC-AA78936FE922}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFF45435-0DE4-447B-A384-76EFBB2A8B20}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+c:\Projects\WeatherRest\Source\WeatherRest.Web.Client\WeatherRest.Web.Client\bin\TypeScriptHTMLApp1.dll.config
+c:\Projects\WeatherRest\Source\WeatherRest.Web.Client\WeatherRest.Web.Client\bin\TypeScriptHTMLApp1.dll
+c:\Projects\WeatherRest\Source\WeatherRest.Web.Client\WeatherRest.Web.Client\bin\TypeScriptHTMLApp1.pdb
+c:\Projects\WeatherRest\Source\WeatherRest.Web.Client\WeatherRest.Web.Client\obj\Debug\WeatherRest.Web.Client.csprojAssemblyReference.cache
+c:\Projects\WeatherRest\Source\WeatherRest.Web.Client\WeatherRest.Web.Client\obj\Debug\WeatherRest.Web.Client.csproj.CoreCompileInputs.cache
+c:\Projects\WeatherRest\Source\WeatherRest.Web.Client\WeatherRest.Web.Client\obj\Debug\TypeScriptHTMLApp1.dll
+c:\Projects\WeatherRest\Source\WeatherRest.Web.Client\WeatherRest.Web.Client\obj\Debug\TypeScriptHTMLApp1.pdb
