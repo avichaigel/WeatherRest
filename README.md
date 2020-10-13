@@ -16,3 +16,8 @@ Forecasts will only be given to authenticated users, which means users who regis
 Once a user registers or logs in, they can click on a location on the map to ask for a forecast.
 Every time the map is clicked, a json including all of users information is sent to the server, who checks that the user has the right password, and if so, returns the forecast. Otherwise, propmts them to register or log in in order to get the forecast.
 In order to minimize time while authenticating the user, I created a cache global list, in which I save every user that registers or logs in, and when authenticating the user, I check there first.
+
+Production:
+In order to get the project ready for production, debug mode should me changed to False in settings.py, the database should be on a cloud, and the Google Maps key should be restricted.
+After consulting with someone from the industry, I understood that it's better to hand in such a project with a local database, but in order to change the database to be on the cloud, simply go to settings.py and remove the commenting out that I did to the settings of the cloud database I have on ElephantSQL, and comment out the settings of the local databse.
+Regarding the debug mode and key restriction - I did that and it caused some problems which could probably be solved easily, but deadline is near and I don't feel so well, so eventually I left debug mode on, and did not restrict the key.
