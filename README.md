@@ -7,7 +7,7 @@ The forecast is taken from the OpenWeatherMap API.
 
 Important: For the purpose of authentication, the only acceptable password is DWELL123. This is detailed below. 
 
-Running:
+### Running:
 1. To run the server, open it in an IDE (I used PyCharm) and in the terminal run the commands:
 cd WeatherApp (should lead you into .../WeatherForecast/WeatherApp)
 python manage.py runserver 8080
