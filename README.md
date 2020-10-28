@@ -5,6 +5,8 @@ The back-end was written using Django Rest Framework, and the front-end was writ
 The user can choose whichever location he wants on the map, which uses Google Maps API.
 The forecast is taken from the OpenWeatherMap API.
 
+Important: For the purpose of authentication, the only acceptable password is DWELL123. This is detailed below. 
+
 Running:
 1. To run the server, open it in an IDE (I used PyCharm) and in the terminal run the commands:
 cd WeatherApp (should lead you into .../WeatherForecast/WeatherApp)
