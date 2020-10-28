@@ -14,7 +14,8 @@ python manage.py runserver 8080
 
 2. To run the client, open it in an IDE (I used Visual Studio) and run it from there (F5).
 
-3. Also, when I run my client it runs on localhost:10202. If yours uses another port, or not on localhost, you will need to add your client's address to the server, by adding it to the CORS_ORIGIN_WHITELIST part in the file "settings.py" which is inside .../WeatherForecast/WeatherApp.
+3. When I run my client it runs on localhost:10202. If yours uses another port, or not on localhost, you will need to add your client's address to the server, by adding it to the CORS_ORIGIN_WHITELIST part in the file "settings.py" which is inside .../WeatherForecast/WeatherApp.
+Most chances are you will not need to change this.
 
 PostgreSQL:
 There is a seperate file stating how the DB and the table are called.
